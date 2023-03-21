@@ -1,0 +1,26 @@
+{
+  "name": "mix-lists",
+  "version": "1.0.0",
+  "description": "Library for mixing lists of objects",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts"
+  },
+  "keywords": [
+    "mix",
+    "lists",
+    "objects",
+    "arrays",
+    "mixing",
+    "mixing lists",
+    "mixing objects",
+    "mixing arrays"
+  ],
+  "author": "Vadzim Lindo <vadimlindo@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.2"
+  }
+}
